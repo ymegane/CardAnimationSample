@@ -33,8 +33,11 @@ kapt {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}")
     implementation("androidx.appcompat:appcompat:${Versions.androidxAppCompat}")
+    implementation("androidx.cardview:cardview:${Versions.androidxCardView}")
+    implementation("androidx.recyclerview:recyclerview:${Versions.androidxRecyclerView}")
+
     implementation("androidx.core:core-ktx:${Versions.androidxKtx}")
-    implementation("androidx.constraintlayout:constraintlayout:${Versions.androicxConstraint}")
+    implementation("androidx.constraintlayout:constraintlayout:${Versions.androidxConstraint}")
     testImplementation("junit:junit:${Versions.junit}")
     androidTestImplementation("androidx.test:runner:${Versions.androidxTestRunner}")
     androidTestImplementation("androidx.test.espresso:espresso-core:${Versions.androidxEspresso}")

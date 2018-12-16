@@ -7,7 +7,9 @@ object Versions {
 
     const val androidxAppCompat = "1.0.2"
     const val androidxKtx = "1.0.1"
-    const val androicxConstraint = "1.1.3"
+    const val androidxConstraint = "1.1.3"
+    const val androidxCardView = "1.0.0"
+    const val androidxRecyclerView = "1.0.0"
 
     const val junit = "4.12"
     const val androidxTestRunner = "1.1.1"
