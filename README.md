@@ -2,6 +2,8 @@
 
 This repository is a sample code of the [Goodpatch Advent Calender 2018 article](https://qiita.com/y_megane/private/e5a0f06cfd4046a66246)
 
+![animation11](https://user-images.githubusercontent.com/2368078/50049605-49366080-012c-11e9-8ec6-de5da6a121ff.gif)
+
 ## License
 
 ```
