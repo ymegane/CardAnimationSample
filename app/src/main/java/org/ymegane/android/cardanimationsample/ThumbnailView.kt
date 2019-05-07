@@ -36,7 +36,7 @@ class ThumbnailView @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas) {
         val radius = Math.min(cornerRadius, cornerRadius * ((rootWidth - width) / cardSideMargin))
-        Log.v("thumbnail", "radius $radius")
+        Log.v("thumbnail${hashCode()}", "radius $radius")
         clipPath.reset()
         clipRectF.set(canvas.clipBounds)
         clipPath.addRoundRect(clipRectF, radius, radius, Path.Direction.CW)

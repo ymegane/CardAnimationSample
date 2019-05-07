@@ -2,8 +2,8 @@ object Versions {
     const val compileSdk = 28
     const val minSdk = 23
     const val targetSdk = 28
-    const val gradleBuildTools = "3.3.0-rc02"
-    const val kotlin = "1.3.11"
+    const val gradleBuildTools = "3.5.0-beta01"
+    const val kotlin = "1.3.31"
 
     const val androidxAppCompat = "1.0.2"
     const val androidxKtx = "1.0.1"
